@@ -5,6 +5,8 @@ import heroImage from "@/assets/images/hero-image.png";
 import phonelink from "@/assets/svg/phonelink.svg";
 import website from "@/assets/svg/website.svg";
 import digitalmarketing from "@/assets/svg/digitalmarketing.svg";
+import subscriptions from "@/assets/svg/subscriptions.svg";
+import designs from "@/assets/svg/designs.svg";
 import Polygon from "@/assets/svg/polygon";
 import mobilepreview1 from "../assets/images/mobile-prev1.png";
 import mobilepreview2 from "../assets/images/mobile-prev12.png";
@@ -143,7 +145,7 @@ export default function Home() {
         <div className="w-[340px] h-[500px] flex flex-col justify-center items-center gap-5">
           <div className="w-[80px] h-[80px] bg-[#CECECE40] rounded-full items-center flex justify-center">
             {" "}
-            <Image src={digitalmarketing} alt="" />
+            <Image src={subscriptions} alt="" />
           </div>
           <h1 className="text-[#1F1717] text-[24px] font-bold">
             Subscriptions{" "}
@@ -159,7 +161,7 @@ export default function Home() {
         <div className="w-[340px] h-[350px]  flex flex-col justify-center items-center gap-5">
           <div className="w-[80px] h-[80px] bg-[#CECECE40] rounded-full items-center flex justify-center">
             {" "}
-            <Image src={digitalmarketing} alt="" />
+            <Image src={designs} alt="" />
           </div>
           <h1 className="text-[#1F1717] text-[24px] font-bold">Designs </h1>
           <p className="text-[#A0A0A0] text-[24px] text-center">
