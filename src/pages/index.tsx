@@ -13,6 +13,7 @@ import frame8 from "@/assets/images/frame-8.png";
 import frame9 from "@/assets/images/frame-9.png";
 import Frame10 from "@/assets/images/Frame10.png";
 import Frame11 from "@/assets/images/Frame11.png";
+import squareImg from "@/assets/images/square.png";
 
 const clientsSaying = [
   {
@@ -223,7 +224,7 @@ export default function Home() {
 
         <div className="w-[1200px] mx-[400px] flex flex-wrap gap-10 ">
           {clientsSaying.map((client) => (
-            <div className=" w-[45%] flex gap-10">
+            <div className=" w-[45%] flex gap-10" key={client.id}>
               <div className="w-[120px] h-[122px]">
                 <Image src={client.image} alt="" />
               </div>
@@ -233,6 +234,36 @@ export default function Home() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="max-width mt-16 px-[10%] lg:mt-40 lg:px-[5%]">
+        <h2 className="text-center text-2xl font-semibold lg:text-5xl">
+          Our Partners
+        </h2>
+
+        <div className="mt-20 mb-14 flex flex-wrap justify-between gap-y-6 lg:mb-40">
+          {new Array(5).fill(0).map((_, i) => (
+            <Image src={squareImg} alt="partner" key={i} />
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto flex flex-col gap-6 justify-center items-center my-[126px] ">
+        <h1 className="text-[24px] text-[#1F1717] font-normal">
+          Subscribe to get prompt updates
+        </h1>
+        <div className="flex justify-center">
+          <div className="relative">
+            <input
+              type="text"
+              placeholder="Email Address"
+              className="py-4 px-2 pl-14 pr-12 w-[420px] bg-[#9A4CEC] rounded-lg focus:outline-none "
+            />
+            <button className="absolute right-1 top-1/2 transform -translate-y-1/2 h-12 w-[120px] bg-[#4C2884] text-white text-[18px] rounded-lg flex items-center justify-center focus:outline-none">
+              Subscribe
+            </button>
+          </div>
         </div>
       </section>
     </DefaultLayouts>
