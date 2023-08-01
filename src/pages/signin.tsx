@@ -1,9 +1,9 @@
-import DefaultLayouts from "@/layouts/DefaultLayouts";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import googleBtn from "../assets/svg/google-btn.svg";
 import facebookBtn from "../assets/svg/facebook-btn.svg";
+import Navbar from "@/components/NavBar/NavBar";
 
 function Signin() {
   const [email, setEmail] = useState("");
@@ -29,7 +29,8 @@ function Signin() {
   }
 
   return (
-    <DefaultLayouts>
+    <>
+      <Navbar />
       <div className="flex gap-64">
         <div className="w-[800px] flex items-center justify-end text-[#FFFFFF]">
           <div className="h-full w-full bg-[#4C2884] rounded-tr-[50%] rounded-br-[50%] flex items-center justify-center">
@@ -112,7 +113,7 @@ function Signin() {
           </form>
         </div>
       </div>
-    </DefaultLayouts>
+    </>
   );
 }
 
