@@ -136,7 +136,8 @@ export default function Home() {
           </h1>
         </div>
       </section>
-      <section className="lg:w-[1200px] w-full lg:mx-auto flex lg:p-5 justify-evenly flex-col lg:flex-wrap gap-5 mb-20">
+
+      <section className="lg:w-[1200px] w-full lg:mx-auto flex lg:p-5 justify-evenly lg:flex-row flex-col lg:flex-wrap gap-5 mb-20">
         {services.map((service) => (
           <div
             key={service.id}
@@ -155,6 +156,7 @@ export default function Home() {
           </div>
         ))}
       </section>
+
       <section className=" relative my-12 flex h-[100px] w-full justify-around gap-5 bg-[#4C2884] lg:mt-52 lg:h-[320px] ">
         <div className="absolute top-0 left-0 z-0 rotate-0" aria-hidden="true">
           <Polygon />
@@ -181,10 +183,10 @@ export default function Home() {
 
       <section className="w-full lg:h-[478px] h-[500px] flex lg:flex-row flex-col my-[200px] ">
         <div className="lg:flex-1 bg-[#1F1717] w-full text-[#FFFFFF] flex flex-col p-3 lg:p-10 gap-8">
-          <h1 className="lg:text-[32px] text-[24px] text-center lg:w-[518px] w-full font-semibold lg:mx-48">
+          <h1 className="lg:text-[32px] text-[24px] text-center lg:text-left lg:w-[518px] w-full font-semibold lg:mx-48">
             Create quick invoices for your customers
           </h1>
-          <p className="lg:text-[24px] text-[16px] text-[#A0A0A0] lg:w-[800px] w-full text-center font-semibold lg:mx-48">
+          <p className="lg:text-[24px] text-[16px] text-[#A0A0A0] lg:text-left lg:w-[800px] w-full text-center font-semibold lg:mx-48">
             Streamline your invoicing process and save time with our quick
             invoicing solution. Easily generate professional invoices for your
             customers with just a few clicks. Say goodbye to manual invoicing
