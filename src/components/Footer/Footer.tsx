@@ -41,12 +41,12 @@ export default function Footer() {
         </div>
 
         <div>
-          <ul className="flex gap-x-14 font-sans text-[#1F1717]">
+          <ul className="flex gap-x-14 lg:flex-row flex-col text-center font-sans text-[#1F1717]">
             {FooterItems.map((item) => (
               <li key={item.index}>
                 <Link
                   href={item.url}
-                  className="transition-all duration-300 ease-in-out hover:text-[#A0A0A0] text-[24px]"
+                  className="transition-all duration-300 ease-in-out hover:text-[#A0A0A0] text-[16px] lg:text-[24px]"
                 >
                   {item.label}
                 </Link>
@@ -57,7 +57,7 @@ export default function Footer() {
 
         <div className="h-0 w-full border border-[#1f171740]"></div>
 
-        <div className="flex gap-12 ">
+        <div className="flex gap-5 lg:gap-12 ">
           <Link href="#">
             <Facebook />
           </Link>
