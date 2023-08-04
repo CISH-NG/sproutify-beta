@@ -197,7 +197,7 @@ export default function Home() {
             Create Invoice
           </button>
         </div>
-        <div className="lg:w-[478px] w-full h-full">
+        <div className="lg:w-[478px] w-full lg:h-[478px]">
           <Image src={retailer2} alt="" />
         </div>
       </section>
