@@ -137,7 +137,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="lg:w-[1200px] w-full lg:mx-auto flex lg:p-5 justify-evenly lg:flex-row flex-col lg:flex-wrap gap-5 mb-20">
+      <section className="lg:w-[1200px] w-full lg:mx-auto flex lg:p-5 justify-evenly lg:flex-row flex-col lg:flex-wrap gap-5 lg:gap-12 mb-20">
         {services.map((service) => (
           <div
             key={service.id}
@@ -209,7 +209,7 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className="lg:w-[1200px] w-full lg:mx-[400px] flex flex-wrap gap-10 p-3 ">
+        <div className="lg:w-[1200px] w-full lg:mx-auto mx-2 flex flex-wrap gap-10 p-3 ">
           {clientsSaying.map((client) => (
             <div className=" lg:w-[45%] w-full flex gap-10" key={client.id}>
               <div className="lg:w-[120px] lg:h-[122px] w-[60px] h-[60px]">
