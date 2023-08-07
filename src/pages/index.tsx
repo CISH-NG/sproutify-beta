@@ -123,7 +123,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="lg:w-[1200px] w-full lg:mx-auto flex lg:p-5 justify-evenly lg:flex-row flex-col lg:flex-wrap gap-5 lg:gap-12 mb-20">
+      <section className="lg:w-[1200px] w-full mx-auto flex lg:p-5 justify-evenly lg:flex-row flex-col lg:flex-wrap gap-5 lg:gap-12 mb-20">
         {services.map((service) => (
           <div
             key={service.id}
@@ -167,23 +167,23 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full lg:h-[478px] h-[500px] flex lg:flex-row flex-col my-[200px] ">
+      <section className="lg:h-[478px] h-[500px] flex lg:flex-row flex-col my-[200px] mx-auto justify-center">
         <div className="flex flex-col p-3 lg:p-10 gap-8">
-          <h1 className="lg:text-[32px] text-[24px] text-center lg:text-left lg:w-[518px] w-full font-semibold lg:mx-48">
+          <h1 className="lg:text-[32px] text-[24px] text-center lg:text-left lg:w-[518px]  font-semibold ">
             Create quick invoices for your customers
           </h1>
-          <p className="lg:text-[24px] text-[16px] text-[#A0A0A0] lg:text-left lg:w-[800px] w-full text-center font-semibold lg:mx-48">
+          <p className="lg:text-[24px] text-[16px] text-[#A0A0A0] lg:text-left lg:w-[800px] text-center font-semibold">
             Streamline your invoicing process and save time with our quick
             invoicing solution. Easily generate professional invoices for your
             customers with just a few clicks. Say goodbye to manual invoicing
             and hello to fast, efficient billing. Try our quick invoicing tool
             today and get paid faster!
           </p>
-          <button className="lg:mx-48 mb-5 bg-[#4C2884] text-[#FFFFFF] lg:w-[230px] lg:px-[13px] px-[6px] py-[10px] text-[16px] lg:py-[20px] lg:text-[24px] rounded-xl">
+          <button className=" mb-5 bg-[#4C2884] text-[#FFFFFF] lg:w-[230px] lg:px-[13px] px-[6px] py-[10px] text-[16px] lg:py-[20px] lg:text-[24px] rounded-xl">
             Create Invoice
           </button>
         </div>
-        <div className="lg:w-[478px] w-full lg:h-full">
+        <div className="lg:w-[478px]  lg:h-full">
           <Image src={retailer2} alt="" />
         </div>
       </section>
