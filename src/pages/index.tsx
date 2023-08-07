@@ -51,34 +51,20 @@ const clientsSaying = [
 const services = [
   {
     id: 1,
-    name: "Social Media",
-    content:
-      "Elevate your online presence with specifically crafted social media management strategies, that align with your brands voice and vision.",
-    image: phonelink,
-  },
-  {
-    id: 2,
     name: "Website",
     content:
-      " Say goodbye to complex coding and endless frustration. Sproutify provides you with a hassle-free website creation experience where you can focus on unleashing your creativity while we take care of the technical complexities.",
+      " Say goodbye to complex coding and endless frustration. Sproutify provides you with a hassle-free website creation experience.",
     image: website,
   },
   {
-    id: 3,
-    name: "Digital Marketing",
-    content:
-      " Achieve online success with carefully curated digital marketing strategies tailored to your brands needs.",
-    image: digitalmarketing,
-  },
-  {
-    id: 4,
+    id: 2,
     name: "Subscriptions",
     content:
-      "Experience a range of Sproutify’s capabilities without compromising your budget. Whether you’re a budding entrepreneur or an established enterprise, our flexible pricing options ensure that you can choose a plan that aligns perfectly with your goals.",
+      "Experience a range of Sproutify’s capabilities without compromising your budget. Our flexible pricing options ensure that you can choose a plan that aligns perfectly with your goals.",
     image: subscriptions,
   },
   {
-    id: 5,
+    id: 3,
     name: "Designs",
     content:
       "Bring your brand to life through our innovative and visually captivating designs that are sure to leave a lasting impression on your audience.",
@@ -97,14 +83,14 @@ export default function Home() {
               manage your <span className="text-[#9A4CEC]">Business</span>
             </h1>
 
-            <p className="text-[24px] mt-6 text-[#A0A0A0]">
+            <p className="lg:text-[24px] text-[16px] mt-6 text-[#A0A0A0]">
               Welcome to Sproutify - the platform that empowers businesses to
               grow and flourish! With our all-in-one solution, you can easily
               create websites, generate invoices, access eye-catching designs,
               launch powerful digital marketing campaigns, and seamlessly manage
               all digital aspects of your business.
             </p>
-            <p className="text-[24px] mt-6 text-[#A0A0A0]">
+            <p className="lg:text-[24px] text-[16px] mt-6 text-[#A0A0A0]">
               Say goodbye to the hassle of juggling multiple tools and hello to
               the streamlined efficiency of Sproutify!
             </p>
@@ -182,7 +168,7 @@ export default function Home() {
       </section>
 
       <section className="w-full lg:h-[478px] h-[500px] flex lg:flex-row flex-col my-[200px] ">
-        <div className="lg:flex-1 bg-[#1F1717] w-full text-[#FFFFFF] flex flex-col p-3 lg:p-10 gap-8">
+        <div className="flex flex-col p-3 lg:p-10 gap-8">
           <h1 className="lg:text-[32px] text-[24px] text-center lg:text-left lg:w-[518px] w-full font-semibold lg:mx-48">
             Create quick invoices for your customers
           </h1>
@@ -193,18 +179,18 @@ export default function Home() {
             and hello to fast, efficient billing. Try our quick invoicing tool
             today and get paid faster!
           </p>
-          <button className="lg:mx-48 mb-5 bg-[#4C2884] lg:w-[230px] lg:px-[13px] px-[6px] py-[10px] text-[16px] lg:py-[20px] lg:text-[24px] rounded-xl">
+          <button className="lg:mx-48 mb-5 bg-[#4C2884] text-[#FFFFFF] lg:w-[230px] lg:px-[13px] px-[6px] py-[10px] text-[16px] lg:py-[20px] lg:text-[24px] rounded-xl">
             Create Invoice
           </button>
         </div>
-        <div className="lg:w-[478px] w-full lg:h-[478px]">
+        <div className="lg:w-[478px] w-full lg:h-full">
           <Image src={retailer2} alt="" />
         </div>
       </section>
 
-      <section className="flex flex-col lg:my-[180px] mt-[320px] gap-[180px] ">
+      <section className="flex flex-col lg:my-[180px] mt-[320px] gap-[100px] bg-black py-10">
         <div className="text-center ">
-          <h1 className="text-[32px] font-semibold">
+          <h1 className="text-[32px] font-semibold text-[#FFFFFF]">
             What Our Clients are saying
           </h1>
         </div>
@@ -216,7 +202,7 @@ export default function Home() {
                 <Image src={client.image} alt="" />
               </div>
               <div className="lg:w-[321px] w-full flex flex-col">
-                <h1 className="lg:text-[32px] text-[24px] font-semibold">
+                <h1 className="lg:text-[32px] text-[24px] font-semibold text-[#FFFFFF]">
                   {client.name}
                 </h1>
                 <p className="text-[#A0A0A0] lg:text-[24px] text-[16px]">
@@ -228,7 +214,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-width mt-16 px-[10%] lg:mt-40 lg:px-[5%]">
+      {/* <section className="max-width mt-16 px-[10%] lg:mt-40 lg:px-[5%]">
         <h2 className="text-center text-2xl font-semibold lg:text-5xl">
           Our Partners
         </h2>
@@ -238,7 +224,7 @@ export default function Home() {
             <Image src={squareImg} alt="partner" key={i} />
           ))}
         </div>
-      </section>
+      </section> */}
 
       <section className="mx-auto flex flex-col gap-6 justify-center items-center my-[126px] ">
         <h1 className="text-[24px] text-[#1F1717] text-center font-normal">
