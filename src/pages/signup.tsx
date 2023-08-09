@@ -210,7 +210,7 @@ function SignUp() {
           <h1>Lorem ipsum dolor sit amet consectetur. Faucibus sagittis.</h1>
           <Link href={"/signin"}>
             <button
-              className="py-[13px] px-[32px] text-lg text-white rounded-3xl w-[200px] bg-[#1F1717] font-medium  shadow-2xl"
+              className="py-[13px] px-[32px] text-lg text-white rounded-xl w-[200px] bg-[#1F1717] font-medium  shadow-2xl"
               type="submit"
             >
               Sign In
