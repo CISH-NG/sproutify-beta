@@ -205,7 +205,7 @@ function SignUp() {
           </form>
         </div>
 
-        <div className="lg:w-[400px] w-full my-14 flex items-center text-center justify-center flex-col text-xl lg:text-[24px] font-medium gap-5">
+        <div className="lg:w-[400px] w-full my-14 flex items-center text-center justify-center flex-col text-xl lg:text-[24px] lg:font-medium gap-5">
           <h1>Already have an account?</h1>
           <h1>Lorem ipsum dolor sit amet consectetur. Faucibus sagittis.</h1>
           <Link href={"/signin"}>
