@@ -44,20 +44,18 @@ function SignUp() {
   return (
     <>
       <Navbar />
-      <div
-        className=" flex justify-evenly lg:flex-row flex-col"
+      <section
+        className=" flex justify-evenly lg:flex-row flex-col "
         style={{
           backgroundImage: `url(${Polygon4.src})`,
-          width: "100%",
-          height: "100vh",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "right",
         }}
       >
         <div className="flex flex-col items-center justify-center px-6 py-14 lg:min-h-[calc(100vh-135px)] lg:pt-[120px] lg:pb-10">
-          {/* <h1 className=" text-3xl font-semibold">Sign Up</h1> */}
+          <h1 className=" text-3xl font-semibold">Sign Up</h1>
 
-          <h1 className="mb-10 text-3xl font-normal">
+          <h1 className="mb-10 lg:text-3xl text-xl font-normal text-center">
             Create a{" "}
             <span className="text-[#4C2884] font-semibold">Sproutify</span>{" "}
             account and enjoy all our service
@@ -207,7 +205,7 @@ function SignUp() {
           </form>
         </div>
 
-        <div className="w-[400px] flex items-center justify-center flex-col text-[24px] font-medium gap-5">
+        <div className="lg:w-[400px] w-full my-14 flex items-center text-center justify-center flex-col text-xl lg:text-[24px] font-medium gap-5">
           <h1>Already have an account?</h1>
           <h1>Lorem ipsum dolor sit amet consectetur. Faucibus sagittis.</h1>
           <Link href={"/signin"}>
@@ -219,7 +217,7 @@ function SignUp() {
             </button>
           </Link>
         </div>
-      </div>
+      </section>
     </>
   );
 }
