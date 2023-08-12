@@ -100,7 +100,7 @@ function Signin() {
         </div>
 
         <div className="lg:w-[400px] w-full mb-10 flex items-center text-center justify-center flex-col text-xl lg:text-[24px] lg:font-medium gap-5 lg:text-black text-[#FFFFFF]">
-          <h1>Don't have an account?</h1>
+          <h1>You do not have an account?</h1>
           <h1>Lorem ipsum dolor sit amet consectetur. Faucibus sagittis.</h1>
           <Link href={"/signup"}>
             <button
