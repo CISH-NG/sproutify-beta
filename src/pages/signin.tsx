@@ -42,7 +42,7 @@ function Signin() {
       >
         <div className="my-16 flex min-h-[calc(100vh-135px)] flex-col items-center justify-center px-[5%] lg:my-20">
           <form
-            className="mb-4 mt-4 flex w-full max-w-[470px] flex-col items-center rounded-3xl border border-[#D9D9D9] px-8 pt-12 pb-8 lg:px-[72px]"
+            className="mb-4 mt-4 flex w-full max-w-[470px] flex-col items-center rounded-3xl bg-white border border-[#D9D9D9] px-8 pt-12 pb-8 lg:px-[72px]"
             onChange={handleInputChange}
           >
             <h1 className="mb-10 text-3xl">Sign In</h1>
@@ -70,7 +70,7 @@ function Signin() {
 
               <button
                 className={`w-full rounded-xl  ${
-                  isFormFilled ? "bg-black" : "bg-[#A0A0A0]"
+                  isFormFilled ? "bg-[#4C2884]" : "bg-[#4c28848f]"
                 } py-4 px-4 text-lg font-bold text-white`}
                 type="button"
                 disabled={isFormFilled}
