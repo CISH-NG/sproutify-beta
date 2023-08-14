@@ -16,6 +16,7 @@ import frame9 from "@/assets/images/frame-9.png";
 import Frame10 from "@/assets/images/Frame10.png";
 import Frame11 from "@/assets/images/Frame11.png";
 import squareImg from "@/assets/images/square.png";
+import FAQ from "@/components/FAQ/FAQ";
 
 const clientsSaying = [
   {
@@ -109,41 +110,8 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="lg:max-w-[1073px] w-full h-[104px] flex justify-center items-center font-semibold bg-[#1F1717] mx-auto   my-20 rounded-xl text-center">
-        <h1 className="text-[#FFF] lg:text-[40px] text-[20px]">
-          Over <span className="text-[#FEC431]">50,000</span> businesses
-          enjoying tech services
-        </h1>
-      </section>
-      <section className="w-full mb-20">
-        <div className="lg:w-[400px] w-full mx-auto text-center">
-          <h1 className="text-[30px] font-semibold text-[#1F1717]">
-            We offer digital solutions for your business
-          </h1>
-        </div>
-      </section>
 
-      <section className="lg:w-[1200px] w-full mx-auto flex lg:p-5 justify-evenly lg:flex-row flex-col lg:flex-wrap gap-5 lg:gap-12 mb-20">
-        {services.map((service) => (
-          <div
-            key={service.id}
-            className="w-[340px] h-[400px]  flex flex-col justify-center items-center gap-5"
-          >
-            <div className="w-[80px] h-[80px] bg-[#CECECE40] rounded-full items-center flex justify-center">
-              {" "}
-              <Image src={service.image} alt="" />
-            </div>
-            <h1 className="text-[#1F1717] text-[24px] font-bold">
-              {service.name}
-            </h1>
-            <p className="text-[#A0A0A0] lg:text-[24px] text-[16px] text-center w-[280px]">
-              {service.content}
-            </p>
-          </div>
-        ))}
-      </section>
-
-      <section className=" relative my-12 flex h-[100px] w-full justify-around gap-5 bg-[#4C2884] lg:mt-52 lg:h-[320px] ">
+      <section className=" relative my-12 flex h-[100px] w-full justify-around gap-5 bg-[#4C2884] lg:my-20 lg:h-[320px] ">
         <div className="absolute top-0 left-0 z-0 rotate-0" aria-hidden="true">
           <Polygon />
         </div>
@@ -167,9 +135,37 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="lg:h-[478px] h-[500px] flex lg:flex-row flex-col my-[200px] mx-auto justify-center">
-        <div className="flex flex-col p-3 lg:p-10 gap-8">
-          <h1 className="lg:text-[32px] text-[24px] text-center lg:text-left lg:w-[518px]  font-semibold ">
+      <section className="w-full my-20">
+        <div className="lg:w-[400px] w-full mx-auto text-center">
+          <h1 className="text-[30px] font-semibold text-[#1F1717]">
+            We offer digital solutions for your business
+          </h1>
+        </div>
+      </section>
+
+      <section className="lg:w-[1200px] w-full mx-auto flex lg:p-5 justify-evenly lg:flex-row flex-col lg:flex-wrap lg:gap-12 my-20">
+        {services.map((service) => (
+          <div
+            key={service.id}
+            className="w-[340px] h-[400px]  flex flex-col justify-center items-center gap-5"
+          >
+            <div className="w-[80px] h-[80px] bg-[#CECECE40] rounded-full items-center flex justify-center">
+              {" "}
+              <Image src={service.image} alt="" />
+            </div>
+            <h1 className="text-[#1F1717] text-[24px] font-bold">
+              {service.name}
+            </h1>
+            <p className="text-[#A0A0A0] lg:text-[24px] text-[16px] text-center w-[280px]">
+              {service.content}
+            </p>
+          </div>
+        ))}
+      </section>
+
+      <section className="lg:h-[478px] h-[800px] flex lg:flex-row flex-col my-[200px] mx-auto justify-between bg-[#1F1717]">
+        <div className="flex flex-col p-3 lg:p-10 gap-8 lg:ml-24">
+          <h1 className="lg:text-[32px] text-[24px] text-center text-[#FFFFFF] lg:text-left lg:w-[518px]  font-semibold ">
             Create quick invoices for your customers
           </h1>
           <p className="lg:text-[24px] text-[16px] text-[#A0A0A0] lg:text-left lg:w-[800px] text-center font-semibold">
@@ -179,18 +175,18 @@ export default function Home() {
             and hello to fast, efficient billing. Try our quick invoicing tool
             today and get paid faster!
           </p>
-          <button className=" mb-5 bg-[#4C2884] text-[#FFFFFF] lg:w-[230px] lg:px-[13px] px-[6px] py-[10px] text-[16px] lg:py-[20px] lg:text-[24px] rounded-xl">
+          <button className=" bg-[#4C2884] py-[13px] px-[32px] lg:text-[20px] rounded-xl lg:w-[198px] text-[#FFFFFF] font-medium">
             Create Invoice
           </button>
         </div>
-        <div className="lg:w-[478px]  lg:h-full">
+        <div className="lg:w-[478px]  lg:h-full flex">
           <Image src={retailer2} alt="" />
         </div>
       </section>
 
-      <section className="flex flex-col lg:my-[180px] mt-[320px] gap-[100px] bg-black py-10">
+      <section className="flex flex-col lg:my-[180px] mt-[320px] gap-[100px] py-10">
         <div className="text-center ">
-          <h1 className="text-[32px] font-semibold text-[#FFFFFF]">
+          <h1 className="text-[32px] font-semibold">
             What Our Clients are saying
           </h1>
         </div>
@@ -202,7 +198,7 @@ export default function Home() {
                 <Image src={client.image} alt="" />
               </div>
               <div className="lg:w-[321px] w-full flex flex-col">
-                <h1 className="lg:text-[32px] text-[24px] font-semibold text-[#FFFFFF]">
+                <h1 className="lg:text-[32px] text-[24px] font-semibold ">
                   {client.name}
                 </h1>
                 <p className="text-[#A0A0A0] lg:text-[24px] text-[16px]">
@@ -225,6 +221,13 @@ export default function Home() {
           ))}
         </div>
       </section> */}
+
+      <section className="bg-[#1F1717] text-[#FFFFFF]">
+        <div className="mx-auto flex w-5/6 flex-col">
+          <h1 className="mt-20 text-center text-3xl font-extrabold ">FAQs</h1>
+          <FAQ />
+        </div>
+      </section>
 
       <section className="mx-auto flex flex-col gap-6 justify-center items-center my-[126px] ">
         <h1 className="text-[24px] text-[#1F1717] text-center font-normal">
