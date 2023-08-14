@@ -16,13 +16,13 @@ const MenuItems = [
   },
   {
     index: 1,
-    label: "About Us",
-    url: "/about-us",
+    label: "Websites",
+    url: "/websites",
   },
   {
     index: 2,
-    label: "FAQ",
-    url: "/faq",
+    label: "Creative Designs",
+    url: "/creative-designs",
   },
 ];
 
@@ -122,13 +122,13 @@ export default function Navbar({ loggedin = false }: NavbarProps) {
           <div className="mt-24 flex justify-center gap-x-[10%]">
             <Link
               href="/signup"
-              className="flex h-12 cursor-pointer items-center rounded-xl border border-purple px-[7%] text-base text-purple"
+              className="flex h-12 cursor-pointer items-center rounded-xl border border-purple px-[7%] text-base text-[#4C2884]"
             >
               Sign Up
             </Link>
             <Link
               href="/signin"
-              className="flex h-12 cursor-pointer items-center rounded-xl border border-purple bg-purple px-[7%] text-base text-white"
+              className="flex h-12 cursor-pointer items-center rounded-xl border border-purple bg-[#4C2884] px-[7%] text-base text-white"
             >
               Sign In
             </Link>
