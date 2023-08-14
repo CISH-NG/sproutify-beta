@@ -4,7 +4,7 @@ import Link from "next/link";
 import googleBtn from "../assets/svg/google-btn.svg";
 import facebookBtn from "../assets/svg/facebook-btn.svg";
 import Navbar from "@/components/NavBar/NavBar";
-import Polygon4 from "@/assets/images/Polygon4.png";
+import Polygon5 from "@/assets/images/Polygon5.png";
 
 function Signin() {
   const [email, setEmail] = useState("");
@@ -33,13 +33,26 @@ function Signin() {
     <>
       <Navbar />
       <section
-        className=" flex justify-evenly lg:flex-row flex-col "
+        className=" flex justify-evenly lg:flex-row flex-col-reverse "
         style={{
-          backgroundImage: `url(${Polygon4.src})`,
+          backgroundImage: `url(${Polygon5.src})`,
           backgroundRepeat: "no-repeat",
-          backgroundPosition: "right",
+          backgroundPosition: "left",
         }}
       >
+        <div className="lg:w-[400px] w-full mb-10 flex items-center text-center justify-center flex-col text-xl lg:text-[24px] lg:font-medium gap-5 lg:text-black text-[#FFFFFF]">
+          <h1>You do not have an account?</h1>
+          <h1>Lorem ipsum dolor sit amet consectetur. Faucibus sagittis.</h1>
+          <Link href={"/signup"}>
+            <button
+              className="py-[13px] px-[32px] text-lg text-white rounded-xl w-[200px] bg-[#1F1717] font-medium  shadow-2xl"
+              type="submit"
+            >
+              Sign Up
+            </button>
+          </Link>
+        </div>
+
         <div className="my-16 flex min-h-[calc(100vh-135px)] flex-col items-center justify-center px-[5%] lg:my-20">
           <form
             className="mb-4 mt-4 flex w-full max-w-[470px] flex-col items-center rounded-3xl bg-white border border-[#D9D9D9] px-8 pt-12 pb-8 lg:px-[72px]"
@@ -97,19 +110,6 @@ function Signin() {
               </div>
             </div>
           </form>
-        </div>
-
-        <div className="lg:w-[400px] w-full mb-10 flex items-center text-center justify-center flex-col text-xl lg:text-[24px] lg:font-medium gap-5 lg:text-black text-[#FFFFFF]">
-          <h1>You do not have an account?</h1>
-          <h1>Lorem ipsum dolor sit amet consectetur. Faucibus sagittis.</h1>
-          <Link href={"/signup"}>
-            <button
-              className="py-[13px] px-[32px] text-lg text-white rounded-xl w-[200px] bg-[#1F1717] font-medium  shadow-2xl"
-              type="submit"
-            >
-              Sign Up
-            </button>
-          </Link>
         </div>
       </section>
     </>
