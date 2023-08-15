@@ -143,11 +143,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="lg:w-[1200px] w-full mx-auto flex lg:p-5 justify-evenly lg:flex-row flex-col lg:flex-wrap lg:gap-12 my-20">
+      <section className="lg:w-[1200px] w-full  mx-auto flex lg:p-5 justify-evenly lg:flex-row flex-col lg:flex-wrap lg:gap-12 my-20">
         {services.map((service) => (
           <div
             key={service.id}
-            className="w-[340px] h-[400px]  flex flex-col justify-center items-center gap-5"
+            className="w-[340px] h-[400px] mx-auto flex flex-col justify-center items-center gap-5"
           >
             <div className="w-[80px] h-[80px] bg-[#CECECE40] rounded-full items-center flex justify-center">
               {" "}
