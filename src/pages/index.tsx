@@ -147,7 +147,7 @@ export default function Home() {
         {services.map((service) => (
           <div
             key={service.id}
-            className="w-[340px] h-[400px] mx-auto flex flex-col justify-center items-center gap-5"
+            className="w-[340px] max-h-[500px] p-3 mx-auto flex flex-col items-center gap-5"
           >
             <div className="w-[80px] h-[80px] bg-[#CECECE40] rounded-full items-center flex justify-center">
               {" "}

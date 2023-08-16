@@ -44,11 +44,7 @@ const FaqQuestion = ({ question, content }: FaqQuestionProps) => {
 
         {open && (
           <div className="my-6 rounded-xl bg-[#CECECE80] px-6 py-4">
-            {/* <span className="flex gap-x-5">
-              <h4 className="text-base text-[#FFFFF] lg:text-lg">{question}</h4>
-              <ChevronDown className="-rotate-90" />
-            </span> */}
-            <p className="mt-4 text-base text-[#A0A0A0] lg:mx-14 lg:mt-6 lg:mb-8 lg:text-lg lg:text-[#FFFFFF]">
+            <p className="mt-4 text-base text-[#FFFFFF] lg:mx-14 lg:mt-6 lg:mb-8 lg:text-lg">
               {content}
             </p>
           </div>
