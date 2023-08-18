@@ -72,7 +72,7 @@ export default function Navbar({ loggedin = false }: NavbarProps) {
             </Link>
             <Link
               href="/signup"
-              className="flex font-normal h-[60px] cursor-pointer items-center rounded-xl border border-purple bg-[#4C2884] text-[22px] px-[60px] text-white"
+              className="flex font-normal h-[60px] cursor-pointer items-center rounded-xl border border-purple bg-[#4C2884] text-[21px] px-[60px] text-white"
             >
               Sign Up
             </Link>
