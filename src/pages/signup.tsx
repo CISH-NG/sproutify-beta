@@ -45,14 +45,14 @@ function SignUp() {
     <>
       <Navbar />
       <section
-        className=" flex justify-evenly lg:flex-row flex-col "
+        className=" flex justify-between lg:flex-row flex-col p-10 "
         style={{
           backgroundImage: `url(${Polygon4.src})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "right",
         }}
       >
-        <div className="flex flex-col items-center justify-center px-6 py-14 lg:min-h-[calc(100vh-135px)] lg:pt-[120px] lg:pb-10">
+        <div className="flex flex-col lg:ml-24 items-center justify-center px-6 py-14 lg:min-h-[calc(100vh-135px)] lg:pt-[120px] lg:pb-10">
           <h1 className=" text-3xl font-semibold">Sign Up</h1>
 
           <h1 className="mb-10 lg:text-3xl text-xl font-normal text-center">
@@ -140,7 +140,7 @@ function SignUp() {
                 <input
                   className="w-full appearance-none rounded-xl border py-4 px-3 leading-tight text-gray-700 focus:shadow"
                   id="password"
-                  type="text"
+                  type="password"
                   placeholder="Password"
                 />
                 <div className="flex flex-col gap-y-2 pt-4">
@@ -205,7 +205,7 @@ function SignUp() {
           </form>
         </div>
 
-        <div className="lg:w-[400px] w-full my-14 flex items-center text-center justify-center flex-col text-xl lg:text-[24px] lg:font-medium gap-5">
+        <div className="lg:w-[400px] lg:text-[#FFFFFF] w-full my-14 flex items-center text-center justify-center flex-col text-xl lg:text-[24px] lg:font-medium gap-5">
           <h1>Already have an account?</h1>
           <h1>Lorem ipsum dolor sit amet consectetur. Faucibus sagittis.</h1>
           <Link href={"/signin"}>
