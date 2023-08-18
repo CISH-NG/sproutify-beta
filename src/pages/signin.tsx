@@ -70,7 +70,7 @@ function Signin() {
               <input
                 className="mb-6 w-full rounded-xl border py-4 px-3 leading-tight text-gray-700 focus:shadow"
                 id="password"
-                type="text"
+                type="password"
                 placeholder="Password"
               />
 
