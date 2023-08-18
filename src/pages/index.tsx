@@ -52,17 +52,17 @@ const clientsSaying = [
 const services = [
   {
     id: 1,
-    name: "Website",
+    name: "Subscriptions",
     content:
-      " Say goodbye to complex coding and endless frustration. Sproutify provides you with a hassle-free website creation experience.",
-    image: website,
+      "Experience a range of Sproutify’s capabilities without compromising your budget. Our flexible pricing options ensure that you can choose a plan that aligns perfectly with your business goals.",
+    image: subscriptions,
   },
   {
     id: 2,
-    name: "Subscriptions",
+    name: "Website",
     content:
-      "Experience a range of Sproutify’s capabilities without compromising your budget. Our flexible pricing options ensure that you can choose a plan that aligns perfectly with your goals.",
-    image: subscriptions,
+      "Say goodbye to complex coding as Sproutify provides you with a seamless website creation experience where you can unleash your creativity, while we take care of the technical complexities.",
+    image: website,
   },
   {
     id: 3,
@@ -165,10 +165,10 @@ export default function Home() {
 
       <section className="lg:h-[478px] h-[800px] flex lg:flex-row flex-col my-[200px] mx-auto justify-between bg-[#1F1717]">
         <div className="flex flex-col p-3 lg:p-10 gap-8 lg:ml-24">
-          <h1 className="lg:text-[32px] text-[24px] text-center text-[#FFFFFF] lg:text-left lg:w-[518px]  font-semibold ">
+          <h1 className="lg:text-[36px] text-[24px] text-center text-[#FFFFFF] lg:text-left lg:w-[518px]  font-semibold ">
             Create quick invoices for your customers
           </h1>
-          <p className="lg:text-[24px] text-[16px] text-[#A0A0A0] lg:text-left lg:w-[800px] text-center font-semibold">
+          <p className="lg:text-[22px] text-[16px] text-[#A0A0A0] lg:text-left lg:w-[800px] text-center font-semibold">
             Streamline your invoicing process and save time with our quick
             invoicing solution. Easily generate professional invoices for your
             customers with just a few clicks. Say goodbye to manual invoicing
