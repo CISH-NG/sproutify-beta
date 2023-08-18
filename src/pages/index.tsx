@@ -168,7 +168,7 @@ export default function Home() {
           <h1 className="lg:text-[36px] text-[24px] text-center text-[#FFFFFF] lg:text-left lg:w-[518px]  font-semibold ">
             Create quick invoices for your customers
           </h1>
-          <p className="lg:text-[22px] text-[16px] text-[#A0A0A0] lg:text-left lg:w-[800px] text-center font-semibold">
+          <p className="lg:text-[21px] text-[16px] text-[#A0A0A0] lg:text-left lg:w-[800px] text-center font-semibold">
             Streamline your invoicing process and save time with our quick
             invoicing solution. Easily generate professional invoices for your
             customers with just a few clicks. Say goodbye to manual invoicing
