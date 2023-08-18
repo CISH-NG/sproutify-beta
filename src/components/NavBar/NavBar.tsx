@@ -52,7 +52,7 @@ export default function Navbar({ loggedin = false }: NavbarProps) {
             <li key={item.index}>
               <Link
                 href={item.url}
-                className={`transition-all duration-300 ease-in-out hover:text-[#1F1717] text-[22px] ${
+                className={`transition-all duration-300 ease-in-out hover:text-[#1F1717] text-[21px] ${
                   router.pathname === item.url && "text-[#1F1717] "
                 }`}
               >
@@ -66,7 +66,7 @@ export default function Navbar({ loggedin = false }: NavbarProps) {
           <div className="hidden gap-x-12 xl:flex">
             <Link
               href="/signin"
-              className="flex h-[60px] cursor-pointer items-center rounded-xl border border-purple px-[60px] text-[#4C2884] text-[22px] font-normal"
+              className="flex h-[60px] cursor-pointer items-center rounded-xl border border-purple px-[60px] text-[#4C2884] text-[21px] font-normal"
             >
               Sign In
             </Link>
