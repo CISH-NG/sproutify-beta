@@ -86,7 +86,7 @@ export default function Sidebar() {
               key={item.index}
               className={`  ${
                 isSignout(item.label) &&
-                "mt-[50%] bg-[#000000] w-[198px] h-[70px] rounded-md flex items-center justify-center"
+                "mt-[50%] bg-[#000000] w-[198px] h-[70px] text-[#FFFFFF] rounded-md flex items-center justify-center"
               }`}
             >
               <Link
