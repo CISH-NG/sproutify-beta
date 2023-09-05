@@ -17,7 +17,7 @@ export default function Settings() {
         <h1 className="text-[32px] font-semibold">Settings</h1>
       </section>
 
-      <section className="relative lg:w-[1022px] lg:h-[210px] justify-center flex  shadow-lg border mb-10">
+      <section className="relative lg:w-[1022px] lg:h-[210px] justify-center flex  shadow-lg border mb-10 rounded-lg">
         <div className="absolute top-0 right-0 w-[50px] h-[100px]">
           <Image src={Group191} alt="" />
         </div>
@@ -42,7 +42,7 @@ export default function Settings() {
         </div>
       </section>
 
-      <section className="lg:w-[1022px] h-[141px] flex gap-10 mb-10 border shadow-lg p-8">
+      <section className="lg:w-[1022px] h-[141px] flex gap-10 mb-10 border shadow-lg p-8 rounded-lg">
         <div className=" w-[100px] flex items-center">
           <div className="w-[32px] h-[32px] rounded-full bg-[#41ABE7] flex justify-center items-center mx-auto">
             <Image src={profileiconwhite} alt="" />
@@ -62,7 +62,7 @@ export default function Settings() {
         </div>
       </section>
 
-      <section className="lg:w-[1022px] h-[141px] flex gap-10 mb-10 border shadow-lg p-8">
+      <section className="lg:w-[1022px] h-[141px] flex gap-10 mb-10 border shadow-lg p-8 rounded-lg">
         <div className=" w-[100px] flex items-center">
           <div className="w-[32px] h-[32px] rounded-full bg-[#9A4CEC] flex justify-center items-center mx-auto">
             <Image src={keyicon} alt="" />
@@ -81,7 +81,7 @@ export default function Settings() {
         </div>
       </section>
 
-      <section className="lg:w-[1022px] h-[141px] flex gap-10 mb-10 border shadow-lg p-8">
+      <section className="lg:w-[1022px] h-[141px] flex gap-10 mb-10 border shadow-lg p-8 rounded-lg">
         <div className=" w-[100px] flex items-center">
           <div className="w-[32px] h-[32px] rounded-full bg-[#E11F1F] flex justify-center items-center mx-auto">
             <Image src={Notification} alt="" />
@@ -100,7 +100,7 @@ export default function Settings() {
         </div>
       </section>
 
-      <section className="lg:w-[1022px] h-[141px] flex gap-10 mb-10 border shadow-lg p-8">
+      <section className="lg:w-[1022px] h-[141px] flex gap-10 mb-10 border shadow-lg p-8 rounded-lg">
         <div className=" w-[100px] flex items-center">
           <div className="w-[32px] h-[32px] rounded-full bg-[#1F1717] flex justify-center items-center mx-auto">
             <Image src={accountmanagement} alt="" />
