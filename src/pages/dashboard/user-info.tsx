@@ -16,7 +16,7 @@ export default function Userinfo() {
         <h1 className="text-[32px] font-semibold">User Info</h1>
       </section>
 
-      <section className="relative lg:w-[1022px] lg:h-[210px] justify-center flex  shadow-lg border mb-10">
+      <section className="relative lg:w-[1022px] lg:h-[210px] justify-center flex  shadow-lg border mb-10 rounded-lg">
         <div className="absolute top-0 right-0 w-[50px] h-[100px]">
           <Image src={Group191} alt="" />
         </div>
@@ -42,7 +42,7 @@ export default function Userinfo() {
       </section>
 
       <section className="lg:w-[1022px] flex gap-10 mb-10">
-        <div className="w-[430px] h-[570px] border shadow-lg p-8 flex flex-col gap-6">
+        <div className="w-[430px] h-[570px] border shadow-lg p-8 flex flex-col gap-6 rounded-lg">
           <div className="flex justify-between">
             <h1 className="text-[24px] font-semibold">Profile Info</h1>
             <div className="w-[32px] h-[32px] border rounded-full items-center justify-center flex bg-[#cde3f0]">
@@ -107,7 +107,7 @@ export default function Userinfo() {
             </form>
           </div>
         </div>
-        <div className="w-[569px] h-[570px] border shadow-lg p-8 flex flex-col gap-6 ">
+        <div className="w-[569px] h-[570px] border shadow-lg p-8 flex flex-col gap-6 rounded-lg">
           <div className="flex justify-between">
             <h1 className="text-[24px] font-semibold">Business Info</h1>
             <div className="w-[32px] h-[32px] border rounded-full items-center justify-center flex bg-[#cde3f0]">
@@ -138,7 +138,7 @@ export default function Userinfo() {
         </div>
       </section>
 
-      <section className="lg:w-[1022px] h-[321px] flex gap-10 mb-10 border shadow-lg  p-8 flex-col ">
+      <section className="lg:w-[1022px] h-[321px] flex gap-10 mb-10 border shadow-lg  p-8 flex-col rounded-lg ">
         <div className="flex justify-between">
           <h1 className="text-[24px] font-semibold">Website</h1>
           <div className="w-[32px] h-[32px] border rounded-full items-center justify-center flex bg-[#f8eccd]">
@@ -169,7 +169,7 @@ export default function Userinfo() {
         </div>
       </section>
 
-      <section className="lg:w-[1022px] h-[530px] flex gap-10 mb-10 border shadow-lg  p-8 flex-col">
+      <section className="lg:w-[1022px] h-[530px] flex gap-10 mb-10 border shadow-lg  p-8 flex-col rounded-lg">
         <div className="flex justify-between">
           <h1 className="text-[24px] font-semibold">Subscriptions</h1>
           <div className="w-[32px] h-[32px] border rounded-full items-center justify-center flex bg-[#f8eccd]">
