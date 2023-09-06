@@ -200,7 +200,7 @@ export default function index() {
                   <div className="w-[32px] h-[32px] rounded-full">
                     <Image src={Frame271} alt="" />
                   </div>
-                  <p className="text-[18px] font-normal">Children's Day</p>
+                  <p className="text-[18px] font-normal">Children&apos;s Day</p>
                 </div>
                 <div>
                   <p className="text-[12px] font-semibold">Sun 27 May</p>
@@ -212,7 +212,7 @@ export default function index() {
                   <div className="w-[32px] h-[32px] rounded-full">
                     <Image src={Frame271} alt="" />
                   </div>
-                  <p className="text-[18px] font-normal">Mother's Day</p>
+                  <p className="text-[18px] font-normal">Mother&apos;s Day</p>
                 </div>
                 <div>
                   <p className="text-[12px] font-semibold">Sun 27 May</p>
