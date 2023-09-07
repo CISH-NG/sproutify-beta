@@ -5,7 +5,7 @@ import Image from "next/image";
 import dashboardicon from "@/assets/svg/dashboardicon.svg";
 import Invoice from "@/assets/svg/Invoice.svg";
 
-export default function history() {
+export default function History() {
   return (
     <DashboardLayout>
       <section className="lg:w-[1022px] flex justify-between mb-5 items-center">

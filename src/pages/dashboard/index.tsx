@@ -64,11 +64,12 @@ export default function index() {
             <div className="text-[40px] text-[#FFFFFF] font-semibold mb-4">
               10
             </div>
-
-            <button className="border w-[215px] h-[48px] text-[24px] text-[#FFFFFF] font-semibold rounded-xl">
-              {" "}
-              See Designs
-            </button>
+            <Link href={"/dashboard/creative-designs"}>
+              <button className="border w-[215px] h-[48px] text-[24px] text-[#FFFFFF] font-semibold rounded-xl">
+                {" "}
+                See Designs
+              </button>
+            </Link>
           </div>
 
           <div className="w-[310px] h-[284px] bg-[#DE5753] rounded-3xl p-10">

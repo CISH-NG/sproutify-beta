@@ -5,7 +5,7 @@ import Image from "next/image";
 import Frame271 from "@/assets/images/Frame271.png";
 import MyCalendar from "@/components/Calendar/Calendar";
 
-export default function calendar() {
+export default function Calendar() {
   return (
     <DashboardLayout>
       <section className="lg:w-[1022px] flex justify-between mb-5 items-center">
