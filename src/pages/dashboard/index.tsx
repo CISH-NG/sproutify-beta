@@ -12,6 +12,7 @@ import Vector59 from "@/assets/svg/Vector59.svg";
 import Invoice from "@/assets/svg/Invoice.png";
 import invoice from "@/assets/svg/Invoice.svg";
 import Frame271 from "@/assets/images/Frame271.png";
+import Link from "next/link";
 
 export default function index() {
   return (
@@ -101,11 +102,12 @@ export default function index() {
             <div className="text-[40px] text-[#FFFFFF] font-semibold mb-7">
               <Image src={Invoice} alt="" />
             </div>
-
-            <button className="border w-[215px] h-[48px] text-[24px] text-[#FFFFFF] font-semibold rounded-xl">
-              {" "}
-              Get Website
-            </button>
+            <Link href={"/dashboard/invoice"}>
+              <button className="border w-[215px] h-[48px] text-[24px] text-[#FFFFFF] font-semibold rounded-xl">
+                {" "}
+                Get Invoice
+              </button>
+            </Link>
           </div>
         </section>
 
@@ -117,65 +119,29 @@ export default function index() {
                 See More
               </p>
             </div>
-            <div className="w-[632px] h-[80px] shadow-lg border mt-2 p-5 flex justify-between mx-auto mb-6 rounded-xl">
+            <div className="w-[632px] h-[80px] hover:bg-[#4C2884] hover:text-[#FFFFFF] shadow-lg border mt-2 p-5 flex justify-between mx-auto mb-6 rounded-xl">
               <div className="flex gap-10">
                 <div className="w-[40px] h-[40px] flex items-center bg-[#FEC431] justify-center border rounded-full">
                   <Image src={invoice} alt="" />
                 </div>
                 <div>
-                  <h1 className="text-[18px] font-medium">New Invoice</h1>
+                  <h1 className="text-[18px] font-medium ">New Invoice</h1>
                   <p className="text-[12px] font-normal text-[#A0A0A0]">
                     Created new invoice for a client
                   </p>
                 </div>
               </div>
-
               <div>
                 <p>01 - 08 - 2023</p>
               </div>
             </div>
-            <div className="w-[632px] h-[80px] shadow-lg border p-5 flex justify-between mx-auto mb-6 rounded-xl">
+            <div className="w-[632px] h-[80px] shadow-lg border hover:bg-[#4C2884] hover:text-[#FFFFFF] p-5 flex justify-between mx-auto mb-6 rounded-xl">
               <div className="flex gap-10">
                 <div className="w-[40px] h-[40px] flex items-center bg-[#41ABE7] justify-center border rounded-full">
                   <Image src={dashboardicon} alt="" />
                 </div>
                 <div>
-                  <h1 className="text-[18px] font-medium">Creative Designs</h1>
-                  <p className="text-[12px] font-normal text-[#A0A0A0]">
-                    Your scheduled designs for the month are all available
-                  </p>
-                </div>
-              </div>
-
-              <div>
-                <p>01 - 08 - 2023</p>
-              </div>
-            </div>
-
-            <div className="w-[632px] h-[80px] bg-[#4C2884] text-[#FFFFFF] shadow-lg border p-5 flex justify-between mx-auto mb-6 rounded-xl">
-              <div className="flex gap-10">
-                <div className="w-[40px] h-[40px] flex items-center bg-[#FEC431] justify-center border rounded-full">
-                  <Image src={invoice} alt="" />
-                </div>
-                <div>
-                  <h1 className="text-[18px] font-medium">New Invoice</h1>
-                  <p className="text-[12px] font-normal text-[#A0A0A0]">
-                    Created new invoice for a client
-                  </p>
-                </div>
-              </div>
-
-              <div>
-                <p>01 - 08 - 2023</p>
-              </div>
-            </div>
-            <div className="w-[632px] h-[80px] bg-[#4C2884] text-[#FFFFFF] shadow-lg border p-5 flex justify-between mx-auto mb-6 rounded-xl">
-              <div className="flex gap-10">
-                <div className="w-[40px] h-[40px] flex items-center bg-[#41ABE7] justify-center border rounded-full">
-                  <Image src={dashboardicon} alt="" />
-                </div>
-                <div>
-                  <h1 className="text-[18px] font-medium">Creative Designs</h1>
+                  <h1 className="text-[18px] font-medium ">Creative Designs</h1>
                   <p className="text-[12px] font-normal text-[#A0A0A0]">
                     Your scheduled designs for the month are all available
                   </p>
