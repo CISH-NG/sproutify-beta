@@ -30,9 +30,11 @@ export default function index() {
           </div>
 
           <div className="flex justify-center items-center">
-            <div className="w-[40px] h-[40px] bg-[#4C2884] rounded-full flex items-center justify-center">
-              <Image src={notificationwhite} alt="" />
-            </div>
+            <Link href={"/dashboard/notifications"}>
+              <div className="w-[40px] h-[40px] bg-[#4C2884] rounded-full flex items-center justify-center">
+                <Image src={notificationwhite} alt="" />
+              </div>
+            </Link>
           </div>
         </section>
 
