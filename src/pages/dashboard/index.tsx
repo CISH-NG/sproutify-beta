@@ -188,10 +188,12 @@ export default function index() {
               </div>
             </div>
 
-            <div className="w-[100%] h-[48px] bg-[#4C2884] text-[#FFFFFF] text-[24px] items-center justify-center flex mx-auto rounded-xl mt-5">
-              {" "}
-              See More{" "}
-            </div>
+            <Link href={"/dashboard/calendar"}>
+              <button className="w-[100%] h-[48px] bg-[#4C2884] text-[#FFFFFF] text-[24px] items-center justify-center flex mx-auto rounded-xl mt-5">
+                {" "}
+                See More{" "}
+              </button>
+            </Link>
           </div>
         </section>
       </DashboardLayout>
