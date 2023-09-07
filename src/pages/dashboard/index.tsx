@@ -115,9 +115,11 @@ export default function index() {
           <div className="w-2/3 mt-2">
             <div className="flex justify-between items-center p-3">
               <h1 className="text-[24px] font-semibold">Recent History</h1>
-              <p className="text-[#A0A0A0] text-[16px] font-semibold">
-                See More
-              </p>
+              <Link href={"/dashboard/history"}>
+                <p className="text-[#A0A0A0] text-[16px] font-semibold">
+                  See More
+                </p>
+              </Link>
             </div>
             <div className="w-[632px] h-[80px] hover:bg-[#4C2884] hover:text-[#FFFFFF] shadow-lg border mt-2 p-5 flex justify-between mx-auto mb-6 rounded-xl">
               <div className="flex gap-10">
