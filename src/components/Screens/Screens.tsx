@@ -12,17 +12,17 @@ import retailer2 from "@/assets/images/retailer2.png";
 const services = [
   {
     id: 1,
-    name: "Website",
+    name: "Subscriptions",
     content:
-      " Say goodbye to complex coding and endless frustration. Sproutify provides you with a hassle-free website creation experience.",
-    image: website,
+      "Experience a range of Sproutify’s capabilities without compromising your budget. Our flexible pricing options ensure that you can choose a plan that aligns perfectly with your business goals.",
+    image: subscriptions,
   },
   {
     id: 2,
-    name: "Subscriptions",
+    name: "Website",
     content:
-      "Experience a range of Sproutify’s capabilities without compromising your budget. Our flexible pricing options ensure that you can choose a plan that aligns perfectly with your goals.",
-    image: subscriptions,
+      "Say goodbye to complex coding as Sproutify provides you with a seamless website creation experience where you can unleash your creativity, while we take care of the technical complexities.",
+    image: website,
   },
   {
     id: 3,
