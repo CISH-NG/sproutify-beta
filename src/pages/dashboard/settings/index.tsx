@@ -9,6 +9,7 @@ import arrowrighticon from "@/assets/svg/arrowrighticon.svg";
 import keyicon from "@/assets/svg/keyicon.svg";
 import Notification from "@/assets/svg/Notification.svg";
 import accountmanagement from "@/assets/svg/accountmanagement.svg";
+import Link from "next/link";
 
 export default function Settings() {
   return (
@@ -56,9 +57,11 @@ export default function Settings() {
           </p>
         </div>
         <div className=" w-[100px] items-center justify-center flex">
-          <div className=" rounded-full flex justify-center items-center mx-auto">
-            <Image src={arrowrighticon} alt="" />
-          </div>
+          <Link href={"/dashboard/settings/account-info"}>
+            <div className=" rounded-full flex justify-center items-center mx-auto">
+              <Image src={arrowrighticon} alt="" />
+            </div>
+          </Link>
         </div>
       </section>
 
@@ -75,9 +78,11 @@ export default function Settings() {
           </p>
         </div>
         <div className=" w-[100px] items-center justify-center flex">
-          <div className=" rounded-full flex justify-center items-center mx-auto">
-            <Image src={arrowrighticon} alt="" />
-          </div>
+          <Link href={"/dashboard/settings/change-password"}>
+            <div className=" rounded-full flex justify-center items-center mx-auto">
+              <Image src={arrowrighticon} alt="" />
+            </div>
+          </Link>
         </div>
       </section>
 
@@ -94,9 +99,11 @@ export default function Settings() {
           </p>
         </div>
         <div className=" w-[100px] items-center justify-center flex">
-          <div className=" rounded-full flex justify-center items-center mx-auto">
-            <Image src={arrowrighticon} alt="" />
-          </div>
+          <Link href={"/dashboard/settings/notifications"}>
+            <div className=" rounded-full flex justify-center items-center mx-auto">
+              <Image src={arrowrighticon} alt="" />
+            </div>
+          </Link>
         </div>
       </section>
 
@@ -113,9 +120,11 @@ export default function Settings() {
           </p>
         </div>
         <div className=" w-[100px] items-center justify-center flex">
-          <div className=" rounded-full flex justify-center items-center mx-auto">
-            <Image src={arrowrighticon} alt="" />
-          </div>
+          <Link href={"/dashboard/settings/account-management"}>
+            <div className=" rounded-full flex justify-center items-center mx-auto">
+              <Image src={arrowrighticon} alt="" />
+            </div>
+          </Link>
         </div>
       </section>
     </DashboardLayout>
