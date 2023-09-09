@@ -34,7 +34,9 @@ const FaqQuestion = ({ question, content }: FaqQuestionProps) => {
           tabIndex={0}
           onClick={() => setOpen(!open)}
         >
-          <p className="text-base text-[#FFFFFF] lg:text-lg">{question}</p>
+          <p className="text-base text-[#FFFFFF] lg:text-lg h-10 my-6">
+            {question}
+          </p>
           <ChevronDown
             className={`${
               open ? "rotate-180" : "rotate-0"
