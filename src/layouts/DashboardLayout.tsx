@@ -12,7 +12,7 @@ export default function DashboardLayout({ children }: PropsWithChildren) {
 
   return (
     <div className="min min-h-screen bg-[#F9F9F9]">
-      <Navbar loggedin={loggedin} />
+      {/* <Navbar loggedin={loggedin} /> */}
       <div className="flex">
         <div>
           <Sidebar />
