@@ -12,6 +12,7 @@ import {
 import { useCallback, useEffect, useState } from "react";
 import { SidebarMenuItemProps } from "./Sidebar.types";
 import Group155 from "@/assets/images/Group155.png";
+import hamburgerIcon from "../../assets/svg/hamburger.svg";
 
 const SidebarMenuItems: SidebarMenuItemProps[] = [
   {
@@ -48,6 +49,10 @@ const SidebarMenuItems: SidebarMenuItemProps[] = [
 
 export default function Sidebar() {
   const router = useRouter();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   const [activeIndex, setActiveIndex] = useState(0);
   const [menuRef, setMenuRef] = useState<HTMLUListElement | null>(null);
@@ -135,6 +140,7 @@ export default function Sidebar() {
           )}
         </ul>
       </nav>
+      
     </>
   );
 }
