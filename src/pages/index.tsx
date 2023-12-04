@@ -76,7 +76,7 @@ const services = [
 export default function Home() {
   return (
     <DefaultLayouts>
-      <section className="px-[5%] max-width mt-20 flex flex-col-reverse items-center gap-y-10 gap-x-[5%] lg:mt-0 l lg:flex-row lg:py-20">
+      <section className="px-[5%] max-width mt-20 flex flex-col items-center justify-evenly gap-x-[5%] lg:mt-0 lg:flex-row lg:py-20">
         <div className="lg:w-1/2">
           <div className="mb-8 lg:mb-20">
             <h1 className="text-center font-sans text-2xl font-semibold text-inky-black lg:text-left lg:text-[56px] lg:leading-[68px]">
@@ -102,7 +102,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div className="px-[10%] sm:px-[20%] lg:w-1/2 lg:px-0">
+        <div className="px-[10%] sm:px-[20%] lg:w-1/3 lg:px-0">
           <Image
             src={heroImage}
             alt="Picture of the author"
@@ -191,7 +191,7 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className="lg:w-[1200px] w-full lg:mx-auto mx-2 flex flex-wrap gap-10 p-3 ">
+        <div className="lg:w-[1200px] w-full justify-evenly lg:mx-auto mx-2 flex flex-wrap gap-10 p-3 ">
           {clientsSaying.map((client) => (
             <div className=" lg:w-[45%] w-full flex gap-10" key={client.id}>
               <div className="lg:w-[120px] lg:h-[122px] w-[60px] h-[60px]">
@@ -238,9 +238,9 @@ export default function Home() {
             <input
               type="text"
               placeholder="Email Address"
-              className="py-4 px-2 pl-14 pr-12 w-full lg:w-[420px] bg-[#9A4CEC] rounded-lg focus:outline-none "
+              className="py-4 px-2 pl-2 pr-48 w-full lg:w-[420px] placeholder-white bg-[#9A4CEC] rounded-lg focus:outline-none"
             />
-            <button className="absolute right-1 top-1/2 transform -translate-y-1/2 h-12 w-[120px] bg-[#4C2884] text-white text-[18px] rounded-lg flex items-center justify-center focus:outline-none">
+            <button className="absolute right-1 top-1/2 transform -translate-y-1/2 h-12 w-[100px] bg-[#4C2884] text-white text-[18px] rounded-lg flex items-center justify-center focus:outline-none">
               Subscribe
             </button>
           </div>
