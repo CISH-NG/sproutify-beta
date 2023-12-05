@@ -40,9 +40,10 @@ export default function AboutUs() {
           Sproutify is committed to supporting your business every step of the
           way. From managing sales to -tracking expenses, our comprehensive app
           offers a wealth of features and resources designed specifically to
-          help business owners like you achieve success. With Sproutify, you'll
-          have access to a supportive community and expert guidance that will
-          help you reach your goals and maximize your growth potential.
+          help business owners like you achieve success. With Sproutify,
+          you&apos;ll have access to a supportive community and expert guidance
+          that will help you reach your goals and maximize your growth
+          potential.
         </p>
       </section>
       <section className=" relative my-12 flex h-[100px] w-full justify-around gap-5 bg-[#4C2884] lg:my-20 lg:h-[320px] ">
