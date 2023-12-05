@@ -18,7 +18,7 @@ const FooterItems = [
   {
     index: 2,
     label: "FAQ",
-    url: "#faq",
+    url: "/#faq",
   },
   {
     index: 3,
