@@ -85,15 +85,14 @@ export default function Home() {
             </h1>
 
             <p className="lg:text-[24px] text-[16px] mt-6 text-[#A0A0A0]">
-              Welcome to Sproutify - the platform that empowers businesses to
-              grow and flourish! With our all-in-one solution, you can easily
-              create websites, generate invoices, access eye-catching designs,
-              launch powerful digital marketing campaigns, and seamlessly manage
-              all digital aspects of your business.
+              Introducing Sproutify, your all-in-one business empowerment
+              platform! Simplify your operations with easy website creation,
+              seamless invoicing, eye-catching designs, and powerful digital
+              marketing tools
             </p>
             <p className="lg:text-[24px] text-[16px] mt-6 text-[#A0A0A0]">
-              Say goodbye to the hassle of juggling multiple tools and hello to
-              the streamlined efficiency of Sproutify!
+              Say goodbye to tool juggling and hello to streamlined efficiency.
+              Grow and flourish with Sproutify!
             </p>
           </div>
 
@@ -118,9 +117,11 @@ export default function Home() {
 
         <div className="flex justify-between gap-x-3 px-10 lg:max-w-7xl">
           <div className="relative z-10 flex w-1/2 items-center">
-            <p className="max-w-lg text-left text-base text-white lg:text-5xl ">
-              Over <span className="text-[#FEC431]">50,000</span> businesses
-              enjoying tech services
+            <p className="max-w-xl text-left text-[14px]  text-white lg:text-5xl ">
+              Elevate Your Business with Tech Excellence:{" "}
+              <span className="text-[#FEC431]">
+                Join our Thriving Community today
+              </span>{" "}
             </p>
           </div>
           <div className="relative flex w-1/2 overflow-hidden">
