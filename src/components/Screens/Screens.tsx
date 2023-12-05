@@ -36,7 +36,7 @@ const services = [
 export default function Screens() {
   return (
     <>
-      <section className="px-[5%] max-width mt-20 flex flex-col-reverse items-center gap-y-10 gap-x-[5%] lg:mt-0 l lg:flex-row lg:py-20">
+      <section className="px-[5%] max-width mt-20 flex flex-col items-center gap-y-10 gap-x-[5%] lg:mt-0 l lg:flex-row lg:py-20">
         <div className="lg:w-1/2 ">
           <div className="mb-8 lg:mb-20">
             <h1 className="text-center font-sans text-2xl font-semibold text-inky-black lg:text-left lg:text-[56px] lg:leading-[68px]">
