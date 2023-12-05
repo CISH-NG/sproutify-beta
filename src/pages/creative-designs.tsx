@@ -48,8 +48,8 @@ export default function CreativeDesigns() {
             <p className="lg:text-[24px] text-[16px] mt-6 text-[#A0A0A0]">
               Transform your brand with creativity! Elevate your image and
               captivate your audience with our bespoke design solutions. Unleash
-              the power of innovation for a brand that stands out. Let's bring
-              your vision to life with our creative designs.
+              the power of innovation for a brand that stands out. Let&apos;s
+              bring your vision to life with our creative designs.
             </p>
           </div>
 
