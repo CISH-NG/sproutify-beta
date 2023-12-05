@@ -6,27 +6,17 @@ export const faqData = [
       {
         question: "Who are we?",
         content:
-          "we are a platform where business owners can subscribe to curated services that position them towards making more profit and getting more value from their businesses.",
+          "We're your one-stop platform for business success! Subscribe to our curated services designed to boost profits and maximize the value of your business.",
       },
       {
         question: "Can i request for specific designs ?",
         content:
-          "We strive to provide users with seamless and efficient solutions for tracking their expenses and managing their finances. Our platform is designed to facilitate well-informed financial decisions and foster sustainable financial stability in the long term.",
-      },
-      {
-        question: "How long have we existed?",
-        content:
-          "Lorem ipsum dolor sit amet consectetur. Nisl morbi tellus diam mauris. Ipsum diam cras magnis ac. Consequat feugiat egestas rhoncus est magna euismod in dolor risus. Morbi nulla feugiat sit orci. Ac et velit sed phasellus mattis. Mauris imperdiet aenean convallis aliquet. Nunc vestibulum accumsan suspendisse dignissim magna. Sit cursus augue tortor mattis. Nullam sed ac tincidunt cras non",
+          "Absolutely, you have the freedom to request specific designs. Feel free to share your preferences, ideas, and any specific requirements you have in mind. Whether it's for graphic design, web design, or any other creative project, providing detailed information helps ensure that the final result aligns with your vision and needs.",
       },
       {
         question: "What benefits do i get from your service?",
         content:
-          "Lorem ipsum dolor sit amet consectetur. Nisl morbi tellus diam mauris. Ipsum diam cras magnis ac. Consequat feugiat egestas rhoncus est magna euismod in dolor risus. Morbi nulla feugiat sit orci. Ac et velit sed phasellus mattis. Mauris imperdiet aenean convallis aliquet. Nunc vestibulum accumsan suspendisse dignissim magna. Sit cursus augue tortor mattis. Nullam sed ac tincidunt cras non",
-      },
-      {
-        question: "What benefits do i get from your service?",
-        content:
-          "Lorem ipsum dolor sit amet consectetur. Nisl morbi tellus diam mauris. Ipsum diam cras magnis ac. Consequat feugiat egestas rhoncus est magna euismod in dolor risus. Morbi nulla feugiat sit orci. Ac et velit sed phasellus mattis. Mauris imperdiet aenean convallis aliquet. Nunc vestibulum accumsan suspendisse dignissim magna. Sit cursus augue tortor mattis. Nullam sed ac tincidunt cras non",
+          "Choosing our services means unlocking a world of benefits for your business. From saving valuable time and accessing expert knowledge to ensuring cost efficiency and high-quality results, we're here to elevate your operations. With a focus on your unique needs, we provide scalable solutions that allow you to innovate, stay competitive, and concentrate on what truly matters – your core business strengths. Let us be your strategic partner in achieving success.",
       },
     ],
   },
