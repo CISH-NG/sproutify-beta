@@ -225,7 +225,9 @@ export default function Home() {
 
       <section className="bg-[#1F1717] text-[#FFFFFF]">
         <div className="mx-auto flex w-5/6 flex-col">
-          <h1 className="mt-20 text-center text-3xl font-extrabold ">FAQs</h1>
+          <h1 className="mt-20 text-center text-3xl font-extrabold " id="faq">
+            FAQs
+          </h1>
           <FAQ />
         </div>
       </section>
