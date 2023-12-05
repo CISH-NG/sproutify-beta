@@ -77,7 +77,7 @@ export default function Home() {
   return (
     <DefaultLayouts>
       <section className="px-[5%] max-width mt-20 flex flex-col items-center justify-evenly gap-x-[5%] lg:mt-0 lg:flex-row lg:py-20">
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 mx-auto flex flex-col justify-center">
           <div className="mb-8 lg:mb-20">
             <h1 className="text-center font-sans text-2xl font-semibold text-inky-black lg:text-left lg:text-[56px] lg:leading-[68px]">
               Our <span className="text-[#9A4CEC]">Business</span> is to help
@@ -97,7 +97,7 @@ export default function Home() {
             </p>
           </div>
 
-          <button className="border border-[#E0E0E0] bg-[#4C2884] py-[13px] px-[32px] text-[20px] rounded-xl lg:w-[198px] text-[#FFFFFF] font-medium">
+          <button className="border border-[#E0E0E0] bg-[#4C2884] py-[13px] px-[32px] text-[20px] rounded-xl lg:w-[198px] text-[#FFFFFF] w-[198px] mx-auto lg:mx-0 font-medium">
             Get Started
           </button>
         </div>
@@ -175,7 +175,7 @@ export default function Home() {
             and hello to fast, efficient billing. Try our quick invoicing tool
             today and get paid faster!
           </p>
-          <button className=" bg-[#4C2884] py-[13px] px-[32px] lg:text-[20px] rounded-xl lg:w-[198px] text-[#FFFFFF] font-medium">
+          <button className=" bg-[#4C2884] py-[13px] px-[32px] lg:text-[20px] w-[198px] mx-auto lg:mx-0 rounded-xl lg:w-[198px] text-[#FFFFFF] font-medium">
             Create Invoice
           </button>
         </div>
@@ -238,7 +238,7 @@ export default function Home() {
             <input
               type="text"
               placeholder="Email Address"
-              className="py-4 px-2 pl-2 pr-48 w-full lg:w-[420px] placeholder-white bg-[#9A4CEC] rounded-lg focus:outline-none"
+              className="py-4 px-2 pl-2 pr-48 w-full lg:w-[420px] placeholder-white text-white bg-[#9A4CEC] rounded-lg focus:outline-none"
             />
             <button className="absolute right-1 top-1/2 transform -translate-y-1/2 h-12 w-[100px] bg-[#4C2884] text-white text-[18px] rounded-lg flex items-center justify-center focus:outline-none">
               Subscribe
